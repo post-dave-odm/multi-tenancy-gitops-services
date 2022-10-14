@@ -14,7 +14,7 @@ kind: CatalogSource
 metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "210"
-  name: ibm-cp4a-operator-catalog
+  name: ibm-cp4ba-operator-catalog
   namespace: openshift-marketplace
 spec:
   displayName: ibm-cp4ba-operator
