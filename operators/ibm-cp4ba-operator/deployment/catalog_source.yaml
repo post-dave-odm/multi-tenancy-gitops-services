@@ -14,10 +14,10 @@ kind: CatalogSource
 metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "210"
-  name: ibm-cp4ba-operator-catalog
+  name: ibm-cp4a-operator-catalog
   namespace: openshift-marketplace
 spec:
-  displayName: ibm-cp4ba-operator
+  displayName: ibm-cp4a-operator
   publisher: IBM
   sourceType: grpc
   image: icr.io/cpopen/ibm-cp-automation-catalog@sha256:f0b137d20ed52cc5bec8dd7ca03fe57e824cf30418803d421c6b50f4d7f5297e
