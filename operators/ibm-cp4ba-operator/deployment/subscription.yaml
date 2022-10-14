@@ -6,8 +6,8 @@ metadata:
   name: ibm-cp4ba-operator-catalog-subscription
   namespace: cp4ba
 spec:
-  channel: v21.0.1
+  channel: v22.1
   name: ibm-cp4ba-operator
   installPlanApproval: Automatic
-  source: ibm-operator-catalog
+  source: ibm-cp4ba-operator-catalog
   sourceNamespace: openshift-marketplace
