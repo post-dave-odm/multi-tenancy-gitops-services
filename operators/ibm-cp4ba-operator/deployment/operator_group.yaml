@@ -3,7 +3,7 @@ kind: OperatorGroup
 metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "220"
-  name: ibm-cp4a-operator-catalog-group
+  name: ibm-cp4ba-operator-catalog-group
   namespace: cp4ba
 spec:
   targetNamespaces:
