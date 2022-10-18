@@ -3,11 +3,11 @@ kind: Subscription
 metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "240"
-  name: ibm-cp4a-operator-catalog-subscription
+  name: ibm-cp4ba-operator-catalog-subscription
   namespace: cp4ba
 spec:
   channel: v22.1
   name: ibm-cp4a-operator
   installPlanApproval: Automatic
-  source: ibm-operator-catalog
+  source: ibm-cp4a-operator-catalog
   sourceNamespace: openshift-marketplace
