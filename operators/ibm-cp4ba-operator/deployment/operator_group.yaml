@@ -2,9 +2,11 @@ apiVersion: operators.coreos.com/v1alpha2
 kind: OperatorGroup
 metadata:
   annotations:
-    argocd.argoproj.io/sync-wave: "220"
-  name: ibm-cp4a-operator-catalog-group
-  namespace: cp4ba
+    argocd.argoproj.io/sync-wave: '230'
+  labels:
+    argo.cntk/instance: ibm-cp4ba-operator
+  name: operatorgroup
+  namespace: ibm-common-services
 spec:
   targetNamespaces:
-  - cp4ba
+    - ibm-common-services
