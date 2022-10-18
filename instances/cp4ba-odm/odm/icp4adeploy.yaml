@@ -167,7 +167,7 @@ spec:
       ## Provide the name of the database for ICN (Navigator).  For example: "ICNDB"
       database_name: "ICNDB"
       ## The name of the secret that contains the DB2/Oracle/PostgreSQL SSL certificate.
-      database_ssl_secret_name: "odm-db-credentials"
+      # database_ssl_secret_name: "odm-db-credentials"
       ## If the database type is Oracle, provide the Oracle DB connection string.  For example, "jdbc:oracle:thin:@//<oracle_server>:1521/orcl"
       ##dc_oracle_icn_jdbc_url: "<Required>"
       ## Provide the validation timeout.  If not preference, keep the default value.
