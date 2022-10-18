@@ -4,7 +4,7 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "230"
   name: operatorgroup
-  namespace: cp4ba
+  namespace: ibm-common-services
 spec:
   targetNamespaces:
-  - cp4ba
+  - ibm-common-services
