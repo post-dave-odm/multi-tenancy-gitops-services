@@ -21,7 +21,7 @@ metadata:
     heritage: Helm
 spec:
   host: >-
-    icp4adeploy-odm-ds-console-route-cp4ba.itzroks-663001qyhn-mz67ha-6ccd7f378ae819553d37d5f2ee142bd6-0000.us-east.containers.appdomain.cloud
+    itzroks-662001rtxj-k8nsmp-4b4a324f027aea19c5cbc0c3275c4656-0000.us-south.containers.appdomain.cloud
   to:
     kind: Service
     name: icp4adeploy-odm-decisionserverconsole
