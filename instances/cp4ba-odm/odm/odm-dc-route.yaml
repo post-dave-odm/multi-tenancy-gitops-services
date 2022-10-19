@@ -12,13 +12,7 @@ metadata:
     app.kubernetes.io/part-of: icp4a
     app.kubernetes.io/instance: icp4adeploy
     release: icp4adeploy
-    app.kubernetes.io/version: 21.0.1
-    app.kubernetes.io/component: odm
-    app.kubernetes.io/managed-by: Operator
-    helm.sh/chart: ibm-odm-prod-21.1.0
-    app.kubernetes.io/name: ibm-odm-prod
-    chart: ibm-odm-prod-21.1.0
-    heritage: Helm
+    app.kubernetes.io/version: 22.0.1
 spec:
   host: >-
     itzroks-662001rtxj-k8nsmp-4b4a324f027aea19c5cbc0c3275c4656-0000.us-south.containers.appdomain.cloud
