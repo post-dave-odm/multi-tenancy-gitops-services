@@ -155,17 +155,17 @@ spec:
 
     # database_precheck: true
     ## The database configuration for ICN (Navigator) - aka BAN (Business Automation Navigator)
-    dc_icn_datasource:
-      ## Provide the database type from your infrastructure.  The possible values are "db2" or "db2HADR" or "oracle" or "postgresql".  This should be the same as the
-      ## GCD and object store configuration above.
-      dc_database_type: "db2"
-      ## Provide the ICN datasource name.  The default value is "ECMClientDS".
-      dc_common_icn_datasource_name: "ECMClientDS"
-      database_servername: "c-db2ucluster-cp4ba-db2u.db2.svc.cluster.local"
-      ## Provide the database server port.  For Db2, the default is "50000".  For Oracle, the default is "1521"
-      database_port: "50000"
-      ## Provide the name of the database for ICN (Navigator).  For example: "ICNDB"
-      database_name: "ICNDB"
+    # dc_icn_datasource:
+      # ## Provide the database type from your infrastructure.  The possible values are "db2" or "db2HADR" or "oracle" or "postgresql".  This should be the same as the
+      # ## GCD and object store configuration above.
+      # dc_database_type: "db2"
+      # ## Provide the ICN datasource name.  The default value is "ECMClientDS".
+      # dc_common_icn_datasource_name: "ECMClientDS"
+      # database_servername: "c-db2ucluster-cp4ba-db2u.db2.svc.cluster.local"
+      # ## Provide the database server port.  For Db2, the default is "50000".  For Oracle, the default is "1521"
+      # database_port: "50000"
+      # ## Provide the name of the database for ICN (Navigator).  For example: "ICNDB"
+      # database_name: "ICNDB"
       ## The name of the secret that contains the DB2/Oracle/PostgreSQL SSL certificate.
       # database_ssl_secret_name: "odm-db-credentials"
       ## If the database type is Oracle, provide the Oracle DB connection string.  For example, "jdbc:oracle:thin:@//<oracle_server>:1521/orcl"
