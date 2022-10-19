@@ -12,10 +12,10 @@
 apiVersion: operators.coreos.com/v1alpha1
 kind: CatalogSource
 metadata:
-  annotations:
-    argocd.argoproj.io/sync-wave: "210"
   name: ibm-cp4a-operator-catalog
   namespace: openshift-marketplace
+  annotations:
+    argocd.argoproj.io/sync-wave: "210"
 spec:
   displayName: ibm-cp4a-operator
   publisher: IBM
@@ -31,6 +31,8 @@ kind: CatalogSource
 metadata:
   name: ibm-cp-automation-foundation-catalog
   namespace: openshift-marketplace
+  annotations:
+    argocd.argoproj.io/sync-wave: "210"
 spec:
   displayName: IBM Automation Foundation Operators
   publisher: IBM
@@ -46,6 +48,8 @@ kind: CatalogSource
 metadata:
   name: ibm-automation-foundation-core-catalog
   namespace: openshift-marketplace
+  annotations:
+    argocd.argoproj.io/sync-wave: "210"
 spec:
   displayName: IBM Automation Foundation Core Operators
   publisher: IBM
@@ -63,6 +67,7 @@ spec:
   namespace: openshift-marketplace
   annotations:
     bedrock_catalogsource_priority: '1'
+    argocd.argoproj.io/sync-wave: "210"
  spec:
   displayName: IBMCS Operators
   publisher: IBM
@@ -81,6 +86,7 @@ spec:
   namespace: openshift-marketplace
   annotations:
     bedrock_catalogsource_priority: '1'
+    argocd.argoproj.io/sync-wave: "210"
  spec:
   displayName: BTS Operator
   publisher: IBM
@@ -98,6 +104,7 @@ spec:
   namespace: openshift-marketplace
   annotations:
     bedrock_catalogsource_priority: '1'
+    argocd.argoproj.io/sync-wave: "210"
  spec:
   displayName: Cloud Native Postgresql Catalog
   publisher: IBM
