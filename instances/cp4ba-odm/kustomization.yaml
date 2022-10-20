@@ -1,6 +1,6 @@
 resources:
 - odm/ibm-ban-secret.yaml
 - odm/odm-db-secret.yaml
-- odm/aro-odm.yaml
+- odm/odm-deploy.yaml
 # - odm/odm-dc-route.yaml
 # - odm/odm-route.yaml
