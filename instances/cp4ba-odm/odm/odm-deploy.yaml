@@ -11,6 +11,8 @@
 apiVersion: icp4a.ibm.com/v1
 kind: ICP4ACluster
 metadata:
+  annotations:
+    argocd.argoproj.io/sync-wave: "250"
   name: icp4adeploy
   labels:
     app.kubernetes.io/instance: ibm-dba
